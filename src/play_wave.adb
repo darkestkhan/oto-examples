@@ -4,7 +4,7 @@ pragma License (GPL);
 -- License: GNU GPLv3 or any later as published by Free Software Foundation --
 -- (see COPYING file)                                                       --
 --                                                                          --
---                    Copyright © 2014 darkestkhan                          --
+--                    Copyright © 2014 - 2015, darkestkhan                  --
 ------------------------------------------------------------------------------
 --  This Program is Free Software: You can redistribute it and/or modify    --
 --  it under the terms of The GNU General Public License as published by    --
@@ -251,7 +251,6 @@ begin
       with "Error when generating buffer:" & AL.Enum'Image (Error);
   end if;
   AL.Buffer_Data
-
     ( Buffer,
       File_Content.Format,
       File_Content.Data.all (File_Content.Samples_At)'Address,
