@@ -2,12 +2,15 @@ Example programs for oto binding to OpenAL.
 
   - play_wave plays RIFF WAVE file specified as first argument to program.
 
+To build with different than default CPU switches add "-XCPU=switches" to
+gprbuild command. Defualt CPU switches are: "-m64 -mssse3 -march=native -fPIC"
+
 ------------------------------------------------------------------------------
 -- EMAIL: <darkestkhan@gmail.com>                                           --
 -- License: GNU GPLv3 or any later as published by Free Software Foundation --
 -- (see COPYING file)                                                       --
 --                                                                          --
---                    Copyright © 2014 darkestkhan                          --
+--                  Copyright © 2014 - 2015 darkestkhan                     --
 ------------------------------------------------------------------------------
 --  This Program is Free Software: You can redistribute it and/or modify    --
 --  it under the terms of The GNU General Public License as published by    --
